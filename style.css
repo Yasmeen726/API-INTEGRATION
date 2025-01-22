@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(font/Montserrat-semiBold.ttf);
+}
+
+* {
+    font-family: Montserrat;
+}
+
+body {
+    background-image: url(backg.jpeg);
+    background-color: black;
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 50%;
+    background-color: white;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    box-shadow: 5px 10px 20px black;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 35%;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 3px solid steelblue;
+}
+
+.notification {
+    background-color: white;
+    display: none;
+    color: maroon;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container {
+    width: 100%;
+    height: 260px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.weather-icon {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+
+.weather-icon img {
+    display: block;
+    margin: 10px auto;
+    width: 50px; 
+}
+
+.location-icon {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+
+.location-icon img {
+    display: block;
+    width: 36px;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 5px;
+    border: steelblue solid 2px;
+    border-radius: 10px;
+}
+
+.temperature-value {
+    width: 100%;
+    height: 68px;
+}
+
+.temperature-value p {
+    margin: 0;
+    padding: 0;
+    color: maroon;
+    font-size: 2em;
+    text-align: center;
+}
+
+.temperature-description {
+    margin: 0;
+    padding: 10px;
+    color: maroon;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.location p {
+    margin: 0;
+    padding: 0;
+    color: maroon;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.relative { 
+    position: absolute;
+    right: 130px;
+    top: 620px; 
+}
