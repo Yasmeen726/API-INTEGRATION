@@ -46,3 +46,6 @@ Temperature Unit Conversion: Allow users to switch between Celsius and Fahrenhei
 More Detailed Weather Information: Display additional details like humidity, wind speed, etc.
 Improved User Interface: Implement a more visually appealing design with better responsiveness across different devices.
 Offline Functionality: Allow users to view previously searched locations or cached weather data.
+
+
+##OUTPUT OF THIS TASK: ![Image](https://github.com/user-attachments/assets/8de7cd03-61ea-42ef-9d7e-934db9bf0944)
