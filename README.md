@@ -48,4 +48,5 @@ Improved User Interface: Implement a more visually appealing design with better 
 Offline Functionality: Allow users to view previously searched locations or cached weather data.
 
 
-##OUTPUT OF THIS TASK: ![Image](https://github.com/user-attachments/assets/8de7cd03-61ea-42ef-9d7e-934db9bf0944)
+##OUTPUT OF THIS TASK: ![Image](https://github.com/user-attachments/assets/acc5b00e-49f6-4245-ae61-d6b778832ce6)
+
