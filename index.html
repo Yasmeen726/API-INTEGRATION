@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <center><h2>Weather App</h2></center>
+      <input
+        id="Search"
+        type="text"
+        placeholder="Enter the city"
+        autocomplete="off"
+      />
+      <div class="location-icon">
+        <img src="https://png.pngtree.com/png-clipart/20230428/original/pngtree-vector-location-icon-silhouette-png-image_9117654.png" alt="Location Icon">
+      </div>
+    </div>
+    <div class="notification"></div>
+    <div class="weather-container">
+      <div class="weather-icon">
+        <img id="weather-icon" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/700186-icon-20-clouds-1024.png" alt="Weather Icon">
+      </div>
+      <div class="temperature-value">
+        <p>__°C</p>
+      </div>
+      <div class="temperature-description">
+        <p>-</p>
+      </div>
+      <div class="location">
+        <p>-</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
